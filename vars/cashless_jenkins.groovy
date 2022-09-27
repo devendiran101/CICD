@@ -63,10 +63,10 @@ def call(Map pipelineParams)
 						projectVersion = pom.getVersion()
 						artifactType = pom.getPackaging()
                 			}
-              				sh "export MAVEN_OPTS=-Xmx2048m"
-            				sh "mvn clean install"
-                  			sh '''cd templates
-						jar -cvf templates.jar *.*'''
+              				//sh "export MAVEN_OPTS=-Xmx2048m"
+            				//sh "mvn clean install"
+                  			//sh '''cd templates
+					//	jar -cvf templates.jar *.*'''
               				echo 'Build completed'
             			}
        			}
