@@ -47,7 +47,7 @@ def call(Map pipelineParams)
                 			}
             			}
        			}*/
-    			stage("Build and Package")
+    			/*stage("Build and Package")
       			{
         			steps
           			{
@@ -69,7 +69,7 @@ def call(Map pipelineParams)
 					//	jar -cvf templates.jar *.*'''
               				echo 'Build completed'
             			}
-       			}
+       			}*/
 /*     			stage('Sonarqube master')
 			{
             			when
