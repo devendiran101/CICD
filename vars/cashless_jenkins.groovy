@@ -30,7 +30,7 @@ def call(Map pipelineParams)
       		}
 		stages
   		{
-          		stage('Get Branch Type')
+          		/*stage('Get Branch Type')
       			{
         			steps
           			{
@@ -46,7 +46,7 @@ def call(Map pipelineParams)
                       				echo "Branch name is #${branch}#"
                 			}
             			}
-       			}
+       			}*/
     			stage("Build and Package")
       			{
         			steps
